@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fmAboutWindow</class>
+ <widget class="QDialog" name="fmAboutWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>682</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>682</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>682</width>
+    <height>446</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Über WhisperMaster2000</string>
+  </property>
+  <widget class="QDialogButtonBox" name="btbox_okcancel">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>81</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_title">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>6</y>
+     <width>551</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">WhisperMaster2000</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tab_license">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>661</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_general_de">
+    <attribute name="title">
+     <string notr="true">Allgemein</string>
+    </attribute>
+    <widget class="QTextEdit" name="txt_general_de">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>641</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Der WhisperMaster2000 ist ein Plugin für &lt;/span&gt;&lt;a href=&quot;https://www.teamspeak.com/en/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;TeamSpeak 3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;. Es entsteht unter der OpenSource Lizenz &lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GNU GPLv3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;. Jeder Nutzer hat damit:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, das Programm für jeden Zweck auszuführen,&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, das Programm eigenen Bedürfnissen anzupassen,&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, die Software mit Freunden und Mitmenschen auszutauschen und&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, gemachte Änderungen mit anderen auszutauschen.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Diese Software sowie den Source-Code finden sie unter:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/WarDogKRT/whispermaster2000&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/WarDogKRT/whispermaster2000&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Die Entwicklungsumgebung ist in diesem frühen Entwicklungszustand noch nicht online verfügbar. Kontaktieren sie mich daher direkt unter &lt;/span&gt;&lt;a href=&quot;wardog.krt@gmail.com&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;wardog.krt@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; um Zugang zu den Tools zu bekommen. Alternativ können die entsprechenden Tools auch bei den unten genannten Anbietern heruntergeladen werden.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Dieses Projekt verwendet:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.teamspeak.com/en/downloads/#sdk&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;TeamSpeak 3 Plugin SDK API 22&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2019 TeamSpeak Systems, Inc.)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.qt.io/terms-conditions/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Qt in der Version 5.6.2&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2019 The Qt Company)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://visualstudio.microsoft.com/de/license-terms/mlt553321/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Visual Studio Community 2017&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2017 Microsoft Corporation)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.boost.org/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Boost C++ Libraries Version 1.68.00&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (unter &lt;/span&gt;&lt;a href=&quot;https://www.boost.org/LICENSE_1_0.txt&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Boost Software License, Version 1.0&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Stackoverflow.com Nutzer &lt;/span&gt;&lt;a href=&quot;https://stackoverflow.com/users/2868335/armatita&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;amatita&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (&lt;/span&gt;&lt;a href=&quot;https://stackoverflow.com/questions/14780517/toggle-switch-in-qt&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;SwitchButton&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Kostenlose Icons (&lt;/span&gt;&lt;a href=&quot;https://www.iconfinder.com/free_icons&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Iconfinder ApS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://help.github.com/en/articles/github-terms-of-service&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;©2019 GitHub Inc.)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Bei Fragen besuchen sie diese Projekt auf &lt;/span&gt;&lt;a href=&quot;https://github.com/WarDogKRT/whispermaster2000&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt; oder &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;kontaktieren sie mich unter &lt;/span&gt;&lt;a href=&quot;wardog.krt@gmail.com&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;wardog.krt@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;Lizenzhinweis:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Dieses Programm ist Freie Software: Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation, Version 3 der Lizenz oder (nach Ihrer Wahl) jeder neueren veröffentlichten Version, weiter verteilen und/oder modifizieren.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Dieses Programm wird in der Hoffnung bereitgestellt, dass es nützlich sein wird, jedoch OHNE JEDE GEWÄHR,; sogar ohne die implizite Gewähr der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Siehe die GNU General Public License für weitere Einzelheiten.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Sie sollten eine Kopie der GNU General Public License zusammen mit diesem Programm erhalten haben. Wenn nicht, siehe &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://www.gnu.org/licenses/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_general_en">
+    <attribute name="title">
+     <string notr="true">General</string>
+    </attribute>
+    <widget class="QTextEdit" name="txt_general_en">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>641</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Übersetzung ==&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Der WhisperMaster2000 ist ein Plugin für &lt;/span&gt;&lt;a href=&quot;https://www.teamspeak.com/en/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;TeamSpeak 3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;. Es entsteht unter der OpenSource Lizenz &lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GNU GPLv3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;. Jeder Nutzer hat damit:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, das Programm für jeden Zweck auszuführen,&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, das Programm eigenen Bedürfnissen anzupassen,&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, die Software mit Freunden und Mitmenschen auszutauschen und&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;die Freiheit, gemachte Änderungen mit anderen auszutauschen.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Diese Software sowie den Source-Code finden sie unter:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/WarDogKRT/whispermaster2000&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/WarDogKRT/whispermaster2000&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Die Entwicklungsumgebung ist in diesem frühen Entwicklungszustand noch nicht online verfügbar. Kontaktieren sie mich daher direkt unter &lt;/span&gt;&lt;a href=&quot;wardog.krt@gmail.com&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;wardog.krt@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; um Zugang zu den Tools zu bekommen. Alternativ können die entsprechenden Tools auch bei den unten genannten Anbietern heruntergeladen werden.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Dieses Projekt verwendet:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.teamspeak.com/en/downloads/#sdk&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;TeamSpeak 3 Plugin SDK API 22&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2019 TeamSpeak Systems, Inc.)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.qt.io/terms-conditions/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Qt in der Version 5.6.2&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2019 The Qt Company)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://visualstudio.microsoft.com/de/license-terms/mlt553321/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Visual Studio Community 2017&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (©2017 Microsoft Corporation)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://www.boost.org/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Boost C++ Libraries Version 1.68.00&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (unter &lt;/span&gt;&lt;a href=&quot;https://www.boost.org/LICENSE_1_0.txt&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Boost Software License, Version 1.0&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;Stackoverflow.com Nutzer &lt;/span&gt;&lt;a href=&quot;https://stackoverflow.com/users/2868335/armatita&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;amatita&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt; (&lt;/span&gt;&lt;a href=&quot;https://stackoverflow.com/questions/14780517/toggle-switch-in-qt&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;SwitchButton&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Kostenlose Icons (&lt;/span&gt;&lt;a href=&quot;https://www.iconfinder.com/free_icons&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Iconfinder ApS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt; color:#222222;&quot;&gt;    ·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt; color:#222222;&quot;&gt;         &lt;/span&gt;&lt;a href=&quot;https://help.github.com/en/articles/github-terms-of-service&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;©2019 GitHub Inc.)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;Bei Fragen besuchen sie diese Projekt auf &lt;/span&gt;&lt;a href=&quot;https://github.com/WarDogKRT/whispermaster2000&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt; oder &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;kontaktieren sie mich unter &lt;/span&gt;&lt;a href=&quot;wardog.krt@gmail.com&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;wardog.krt@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; color:#222222;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; font-weight:600;&quot;&gt;License notice:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;You should have received a copy of the GNU General Public License along with this program.  If not, see &amp;lt;&lt;/span&gt;&lt;a href=&quot;http://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.gnu.org/licenses/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:12pt;&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_gnu">
+    <attribute name="title">
+     <string notr="true">GNU GPLv3 License</string>
+    </attribute>
+    <widget class="QTextEdit" name="txt_gnu">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>641</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:16px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:24px; background-color:transparent;&quot;&gt;&lt;span style=&quot; background-color:transparent;&quot;&gt;GNU GPLv3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lb_version">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">Version:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_author">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>551</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">Author:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_version_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">00.01 (build xx.xx.xxxx)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_author_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">WarDog | Michael</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btbox_okcancel</sender>
+   <signal>accepted()</signal>
+   <receiver>fmAboutWindow</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btbox_okcancel</sender>
+   <signal>rejected()</signal>
+   <receiver>fmAboutWindow</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

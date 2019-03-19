@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fmMainWindow</class>
+ <widget class="QDialog" name="fmMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">fmMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>911</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>590</y>
+      <width>891</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <spacer>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>100</width>
+         <height>31</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_ok">
+       <property name="text">
+        <string notr="true">pbOk</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_apply">
+       <property name="text">
+        <string notr="true">pbApply</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_cancel">
+       <property name="text">
+        <string notr="true">pbCancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="clientTreeWidget" name="treeRxList">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>20</y>
+      <width>321</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="columnCount">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tab_group">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>561</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::West</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <widget class="QWidget" name="tab_general">
+     <attribute name="title">
+      <string notr="true">General</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string notr="true">General settings.</string>
+     </attribute>
+     <attribute name="whatsThis">
+      <string notr="true">Open tab with general settings.</string>
+     </attribute>
+     <widget class="QGroupBox" name="gb_general_general">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>510</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string notr="true">Allgemein</string>
+      </property>
+      <widget class="QSpinBox" name="spin_general_num_profile">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>100</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>20</number>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_general_language">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>160</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Deutsch</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">English</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="lb_general_num_profile">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>140</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Anzahl Profile:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_general_language">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>140</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Sprache:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ed_generel_key">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">ALT + F4</string>
+       </property>
+       <property name="placeholderText">
+        <string notr="true">Kein Hotkey </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_general_key">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Aktive Hotkeys:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ed_generel_key_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>160</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">ALT + F4</string>
+       </property>
+       <property name="placeholderText">
+        <string notr="true">Kein Hotkey </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_general_key_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Aktive Hotkeys:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gb_general_ignore">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>511</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string notr="true">Ignore-Liste</string>
+      </property>
+      <widget class="QPushButton" name="pb_general_delete">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>160</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Liste löschen</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_general_use_rx">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>140</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Verwenden zum Empfangen:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_general_auto_save">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Automatisch speichern:</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sw_general_use_rx" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>70</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sw_general__auto_save" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>70</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gb_general_led">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>510</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string notr="true">LED-Beleuchtung</string>
+      </property>
+      <widget class="QPushButton" name="pb_general_led_color">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>99</y>
+         <width>112</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Farbe...</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_general_key">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>160</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Keine Taste</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">F1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">F2</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pb_general_led_test">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>59</y>
+         <width>72</width>
+         <height>63</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string notr="true">Test</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_general_led_type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>160</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Keine LED-Beleuchtung</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">Logitech (LGS)</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="lb_general_color">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>95</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>85</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>240</red>
+             <green>240</green>
+             <blue>240</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>240</red>
+             <green>240</green>
+             <blue>240</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_profile">
+     <attribute name="title">
+      <string notr="true">1. Profil 1</string>
+     </attribute>
+     <attribute name="toolTip">
+      <string notr="true">Profile 1 settings.</string>
+     </attribute>
+     <attribute name="whatsThis">
+      <string notr="true">Open the settings of profile 1.</string>
+     </attribute>
+     <widget class="QGroupBox" name="gb_profile_general">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>510</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string notr="true">Allgemein</string>
+      </property>
+      <widget class="QComboBox" name="cb_profile_type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>67</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Kein Typ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">Favorite</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">Level</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">Frequenz</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="lb_profile_ignore_tx">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>95</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Verwende Ignore-List zum senden:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_profile_ptt">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>95</y>
+         <width>130</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Auto activate (PTT):</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sw_profile_ignore_tx" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>115</y>
+         <width>70</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sw_profile_ptt" native="true">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>115</y>
+         <width>70</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_profile_type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>47</y>
+         <width>130</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Profiltyp:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ed_profile_name">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true"/>
+       </property>
+       <property name="maxLength">
+        <number>20</number>
+       </property>
+       <property name="placeholderText">
+        <string notr="true">Name des Profil</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ed_profile_key">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">ALT + F4</string>
+       </property>
+       <property name="placeholderText">
+        <string notr="true">Kein Hotkey </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_profile_key">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Aktive Hotkeys:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ed_profile_key_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>160</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">ALT + F4</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string notr="true">Kein Hotkey </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_profile_key_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Aktive Hotkeys:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gb_profile_led">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>510</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string notr="true">LED-Beleuchtung</string>
+      </property>
+      <widget class="QPushButton" name="pb_profile_led_color">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>99</y>
+         <width>112</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string notr="true">Farbe...</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_profile_key">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>160</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Keine Taste</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">F1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">F2</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pb_profile_led_test">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>59</y>
+         <width>72</width>
+         <height>63</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string notr="true">Test</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_profile_led_type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>160</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string notr="true">Keine LED-Beleuchtung</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string notr="true">Logitech (LGS)</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="lb_profile_color">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>95</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>85</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>240</red>
+             <green>240</green>
+             <blue>240</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>240</red>
+             <green>240</green>
+             <blue>240</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QStackedWidget" name="stack_profile_tab">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>521</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="page_profile_empty">
+       <widget class="QGroupBox" name="gb_profile_empty">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>511</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string notr="true">Kein Profiltyp gewählt</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_profile_favorite">
+       <widget class="QGroupBox" name="gb_profile_favorite">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>511</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string notr="true">Favoriten</string>
+        </property>
+        <widget class="QPushButton" name="pb_profile_fav_delete">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>160</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Liste löschen</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_fav_use_sub">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>140</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Nutze Sub-Channel:</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="sw_profile_fav_use_sub" native="true">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>70</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_profile_level">
+       <widget class="QGroupBox" name="gb_profile_lev">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>511</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string notr="true">Channel-Level</string>
+        </property>
+        <widget class="QSpinBox" name="spin_profile_lev_lower">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>100</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+        </widget>
+        <widget class="QSpinBox" name="spin_profile_lev_upper">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>90</y>
+           <width>100</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="value">
+          <number>1</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_lev_lower">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>130</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Untere Grenze:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_lev_upper">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>70</y>
+           <width>130</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Obere Grenze (Optional):</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="check_profile_lev_upper">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>93</y>
+           <width>70</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true"/>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_profile_freq">
+       <widget class="QGroupBox" name="gb_profile_freq">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>511</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string notr="true">Frequenz</string>
+        </property>
+        <widget class="QSpinBox" name="spin_profile_freq_freq">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>90</y>
+           <width>100</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_freq_freq">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>70</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Tranceiver Frequenz:</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_profile_freq_next">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>120</y>
+           <width>100</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Unbelegte Freq.</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="cb_profile_freq_mode">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>160</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string notr="true">OFF</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string notr="true">Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string notr="true">Mute</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string notr="true">Squelch</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="lb_profile_freq_prio">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>20</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Priorität:</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="sw_profile_freq_prio" native="true">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>40</y>
+           <width>70</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_freq_mode">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>110</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Modus:</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="sw_profile_freq_master" native="true">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>90</y>
+           <width>70</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_profile_freq_master">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>70</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string notr="true">Priorität:</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>911</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string notr="true">File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string notr="true">Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_view">
+    <property name="title">
+     <string notr="true">View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_edit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_edit"/>
+   <addaction name="menu_view"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <action name="menu_action_close">
+   <property name="text">
+    <string notr="true">Close</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">Close</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">Close</string>
+   </property>
+  </action>
+  <action name="menu_action_save">
+   <property name="text">
+    <string notr="true">Save</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">Save</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">Save</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string notr="true">About</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">About</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">About</string>
+   </property>
+  </action>
+  <action name="action_expert">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string notr="true">Expert</string>
+   </property>
+  </action>
+  <action name="action_open_freq">
+   <property name="text">
+    <string notr="true">Open_FreqUI</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>clientTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>.\ui\clienttreewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

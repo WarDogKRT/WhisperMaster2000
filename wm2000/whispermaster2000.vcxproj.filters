@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\teamspeak">
+      <UniqueIdentifier>{424f4ce9-e47e-43e3-91bc-85bbfec2c680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\teamlog">
+      <UniqueIdentifier>{d76dfa87-907d-4936-a5cf-59462dba95d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{859c96a1-bcb9-43ca-aaf6-5378bc5625f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{ba55166e-f901-4789-8467-4d494412b4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{7c5d26c1-772d-48dc-8777-491ad97a0aac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\misc\config_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\base\plugin_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\base\plugin_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\misc\language_pkg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\misc\channel_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\misc\client_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\base\plugin_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\misc\error_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ui\wm2000_about_ui.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ui\wm2000_freq_ui.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ui\wm2000_main_ui.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ui\SwitchButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\clientTreeWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\wm2000_main_ui_actions.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ts3_api\include\ts3_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamspeak\clientlib_publicdefinitions.h">
+      <Filter>Header Files\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamspeak\public_definitions.h">
+      <Filter>Header Files\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamspeak\public_errors.h">
+      <Filter>Header Files\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamspeak\public_errors_rare.h">
+      <Filter>Header Files\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamspeak\public_rare_definitions.h">
+      <Filter>Header Files\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\teamlog\logtypes.h">
+      <Filter>Header Files\teamlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ts3_api\include\plugin_definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\misc\config_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\base\plugin_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\misc\language_pkg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\misc\channel_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\misc\client_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\base\plugin_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\misc\error_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ui\StyleSheets.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include=".\base\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include=".\ui\wm2000_main_ui.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include=".\ui\wm2000_freq_ui.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include=".\ui\wm2000_about_ui.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include=".\ui\SwitchButton.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\wm2000_main_ui_actions.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\clientTreeWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include=".\ui\wm2000_freq_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include=".\ui\wm2000_about_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include=".\ui\wm2000_main_ui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include=".\ui\wm2000_freq_ui.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
