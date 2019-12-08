@@ -1,7 +1,7 @@
 #pragma once
 #include <QtWidgets/QWidget>
 #include <QtWidgets/qlabel.h>
-#include <qpropertyanimation.h>
+#include <QtCore/qpropertyanimation.h>
 
 
 /*

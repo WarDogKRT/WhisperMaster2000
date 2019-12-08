@@ -1,6 +1,6 @@
 #include "wm2000_freq_ui.h"
-#include <QMessageBox>
-#include <QInputDialog>
+#include <QtWidgets\QMessageBox>
+#include <QtWidgets\QInputDialog>
 
 #define TRANSLATE(a) QString(this->m_cTranslate.translate(a).c_str())
 #if USE_CALL_STACK

@@ -1,8 +1,8 @@
 #pragma once
 
-#include <QProxyStyle>
-#include <QTabBar>
-#include <QStyleOption>
+#include <QtWidgets\QProxyStyle>
+#include <QtWidgets\QTabBar>
+#include <QtWidgets\QStyleOption>
 
 class CustomTabStyle : public QProxyStyle
 {

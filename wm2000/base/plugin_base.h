@@ -15,10 +15,11 @@
 #include "teamspeak/clientlib_publicdefinitions.h"
 #include "ts3_functions.h"
 
-#define PLUGIN_API_VERSION 22
+#define PLUGIN_API_VERSION 23
 
 #define PATH_BUFSIZE 512
 #define COMMAND_BUFSIZE 128
+#define INFODATA_BUFSIZE 128
 #define SERVERINFO_BUFSIZE 256
 #define CHANNELINFO_BUFSIZE 512
 #define RETURNCODE_BUFSIZE 128
@@ -62,7 +63,7 @@ public:
 
     const char* get_name()          { return TRANSLATE("base_name"); };
     const char* get_user()          { return TRANSLATE("base_user"); };
-    const char* get_version()       { return TRANSLATE("base_version"); };
+	const char* get_version()       { return TRANSLATE("base_version"); };
     const char* get_description()   { return TRANSLATE("base_description"); };
     const char* get_infoTitle()     { return TRANSLATE("info_Title"); };
     

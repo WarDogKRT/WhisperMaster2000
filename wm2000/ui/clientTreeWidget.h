@@ -1,7 +1,7 @@
 #pragma once
 #include <QtWidgets/QTreeWidget>
-#include <qaction.h>
-#include <qmenu.h>
+#include <QtWidgets/qaction.h>
+#include <QtWidgets/qmenu.h>
 #include <boost\thread.hpp>
 
 #include "misc/client_filter.h"

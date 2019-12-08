@@ -60,8 +60,8 @@ void language_pkg::init_base()
     //this->m_cLangPkg.add(L"de.base_user", std::wstring(L"wardogmuc | Michael"));
 
     // base_version (dosn't use language based on xml file)
-    this->m_cLangPkg.add(L"en.base_version", std::wstring(L"Alpha 00.05"));
-    //this->m_cLangPkg.add(L"de.base_version", std::wstring(L"Alpha 00.05"));
+    this->m_cLangPkg.add(L"en.base_version", std::wstring(L"Alpha 00.06        ")); //Length increased to 20 elements, caused by an unknown problem if this particular string is too short
+    //this->m_cLangPkg.add(L"de.base_version", std::wstring(L""));
 
     // base_description (dosn't use language based on xml file)
     this->m_cLangPkg.add(L"en.base_description", std::wstring(L"WhisperMaster2000 helps you to master your communication with your friends without seting up whisperlists manually every time the people in your group are changing."));

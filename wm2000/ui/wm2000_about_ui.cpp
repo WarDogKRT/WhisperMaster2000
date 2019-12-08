@@ -1,7 +1,7 @@
 #include "wm2000_about_ui.h"
-#include <qfile.h>
-#include <qfileinfo.h>
-#include <qtextstream.h>
+#include <QtCore/qfile.h>
+#include <QtCore/qfileinfo.h>
+#include <QtCore/qtextstream.h>
 
 #define TRANSLATE(a) QString(this->m_cTranslate.translate(a).c_str())
 #if USE_CALL_STACK

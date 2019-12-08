@@ -75,28 +75,28 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ts3_api\include\ts3_functions.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\ts3_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamspeak\clientlib_publicdefinitions.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamspeak\clientlib_publicdefinitions.h">
       <Filter>Header Files\teamspeak</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamspeak\public_definitions.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamspeak\public_definitions.h">
       <Filter>Header Files\teamspeak</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamspeak\public_errors.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamspeak\public_errors.h">
       <Filter>Header Files\teamspeak</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamspeak\public_errors_rare.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamspeak\public_errors_rare.h">
       <Filter>Header Files\teamspeak</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamspeak\public_rare_definitions.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamspeak\public_rare_definitions.h">
       <Filter>Header Files\teamspeak</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\teamlog\logtypes.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\teamlog\logtypes.h">
       <Filter>Header Files\teamlog</Filter>
     </ClInclude>
-    <ClInclude Include="..\ts3_api\include\plugin_definitions.h">
+    <ClInclude Include="$(TS3SDKDIR)\include\plugin_definitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include=".\misc\config_container.h">

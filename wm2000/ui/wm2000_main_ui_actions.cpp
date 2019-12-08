@@ -1,8 +1,8 @@
 #include "wm2000_main_ui_actions.h"
-#include <QMessageBox>
-#include <qinputdialog.h>
-#include <qdiriterator.h>
-#include <qfiledialog.h>
+#include <QtWidgets\QMessageBox>
+#include <QtWidgets\qinputdialog.h>
+#include <QtCore\qdiriterator.h>
+#include <QtWidgets\qfiledialog.h>
 
 #define TRANSLATE(a) QString(this->m_cTranslate.translate(a).c_str())
 #if USE_CALL_STACK

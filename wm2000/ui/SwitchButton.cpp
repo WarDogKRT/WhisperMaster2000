@@ -1,5 +1,5 @@
 #include "SwitchButton.h"
-#include <QPainter> 
+#include <QtGui/QPainter> 
 
 SwitchButton::SwitchButton(QWidget* parent, Style style, QColor color)
     : QWidget(parent)

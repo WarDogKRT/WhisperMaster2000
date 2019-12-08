@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/qmainwindow.h>
-#include <QStackedLayout>
+#include <QtWidgets/QStackedLayout>
 
 #include "ui_wm2000_main_ui.h"
 #include "misc/language_pkg.h"

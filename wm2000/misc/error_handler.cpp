@@ -1,6 +1,6 @@
 #include "error_handler.h"
 
-#include <QMessageBox>
+#include <QtWidgets/QMessageBox>
 #include <fstream>
 #include <io.h>         // For access().
 #include <sys/types.h>  // For stat().
